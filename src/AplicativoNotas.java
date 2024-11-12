@@ -57,7 +57,7 @@ public class AplicativoNotas {
                 double soma = 0;
 
                 for (int i = 0; i < notas.size(); i++) {
-                    soma += Integer.parseInt(notas.get(i));
+                    soma += Double.parseDouble(notas.get(i));
                 }
 
                 double mediaFinal = soma / notas.size();
